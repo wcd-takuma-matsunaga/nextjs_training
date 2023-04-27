@@ -24,10 +24,10 @@
     "prettier/prettier": [
       "error",
       {
-        "trailingComma": "all",
+        "trailingComma": "ES6",
         "endOfLine": "lf",
-        "semi": false,
-        "singleQuote": true,
+        "semi": true,
+        "singleQuote": false,
         "printWidth": 80,
         "tabWidth": 2
       }
