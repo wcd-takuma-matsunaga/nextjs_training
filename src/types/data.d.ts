@@ -18,7 +18,7 @@ export type Product = {
   title: string;
   description: string;
   imageUrl: string;
-  blurDataURL: string;
+  blurDataUrl: string;
   price: number;
   condition: Condition;
   owner: User;
@@ -26,5 +26,5 @@ export type Product = {
 
 // API Context
 export type ApiContext = {
-  apiRooteUrl: string;
+  apiRootUrl: string;
 };
