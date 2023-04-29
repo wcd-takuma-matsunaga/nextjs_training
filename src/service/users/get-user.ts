@@ -19,7 +19,7 @@ const getUser = async (
   //   "description": "テストユーザーです",
   // }
   return await fetcher(
-    `${context.apiRooteUrl.replace(/\/$/g, "")}/users/${id}`,
+    `${context.apiRootUrl.replace(/\/$/g, "")}/users/${id}`,
     {
       headers: {
         Accpet: "application/json",
